@@ -71,7 +71,7 @@ permanently_stopped_groups = set()
 ADMIN_IDS = set()         # resolved numeric ids from ADMIN_USERNAMES
 ADMIN_ENTITIES = {}       # id -> entity
 admin_was_online = None   # None = unknown, True/False tracked from previous iteration (for special group)
-STATE_FILE = "/tmp/scheduler_state.json"
+STATE_FILE = "/app/data/scheduler_state.json"
 
 # -----------------------------
 # Helpers
