@@ -30,15 +30,15 @@ ADMIN_ID = 7938724671
 # -----------------------------
 # Groups
 # -----------------------------
-GROUP_IDS = [-1002005046318]  # other groups can be added to this list
+GROUP_IDS = []  # other groups can be added to this list
 
 # This single GROUP will have the admin-online/offline behavior applied
-SPECIAL_GROUP_ID = -1002005046318
+SPECIAL_GROUP_ID = None
 
 # -----------------------------
 # Admin usernames to watch (without @)
 # -----------------------------
-ADMIN_USERNAMES = ["ChatFmRobot", "FmRobotBD"]
+ADMIN_USERNAMES = []
 
 # If an admin hides status (status == None), decide behavior:
 # True  -> treat hidden/unknown as ONLINE (safe)
